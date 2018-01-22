@@ -10,14 +10,14 @@ title: wessmrs' bok-choy's gree house
 subtitle: 我想让我的生活尽可能变得简单，不用为做太多决定而费神。 -马克·扎克伯格
 ##网站描述
 description: 生活就像所有美好的东西一样，通过不断的努力、不断的练习才能达到你对它的期待。 -马克·扎克伯格
-##文章作者
-author: wess.mrs
 ##使用的邮箱
 email: wess.mrs@gmail.com
+##文章作者
+author: wess.mrs
 ##网站使用的语言
-language: 
-##所在时区
-timezone:
+language: zh-CN
+##所在时区，默认电脑时区
+#timezone:
 
 # URL
 
@@ -65,11 +65,21 @@ filename_case: 0
 render_drafts: false
 ##启动Asset文件夹
 post_asset_folder: false
+relative_link: false
+future: true
 ##代码块的设置
 highlight:
   enable: true
   line_number: true
+  auto_detect: false
   tab_replace:
+
+# Home page setting
+
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
 
 # Category & Tag
 
@@ -84,14 +94,13 @@ tag_map:
 ## 2: Enable pagination
 ## 1: Disable pagination
 ## 0: Fully Disable
-archive: 2
-category: 2
-tag: 2
+category: 0
+archive: 0
+tag: 0
 
 # Server
-## Hexo uses Connect as a server
-## You can customize the logger format as defined in
 ## http://www.senchalabs.org/connect/logger.html
+
 port: 4000
 logger: false
 logger_format:

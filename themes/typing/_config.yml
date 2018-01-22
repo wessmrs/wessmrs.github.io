@@ -1,14 +1,14 @@
 # Lang
-language: en
+language: zh-CN
 
 # Dark Mode
 dark: false
 
 # Header
 menu:
-  Home: /
-  Archives: /archives
-  About: /about
+  首页: /
+  归档: /archives
+  关于: /about
 
 # Your Feed Location
 #rss: /atom.xml
@@ -27,30 +27,43 @@ fb_app_id:
 
 
 # Profile
-nickname: NickName
-description: Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Fusce eget urna vitae velit *eleifend interdum at ac nisi. In nec ligula lacus. Cum sociis natoque* penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu cursus erat, ut dapibus quam. Aliquam eleifend dolor vitae [libero pharetra](http://hexo.io) adipiscing. Etiam adipiscing dolor a quam tempor, eu convallis nulla varius. Aliquam sollicitudin risus a porta aliquam.
+nickname: 我用什么才能留住你？
+description: 
+  我要用什么来留住你？
+  </br>我给你单薄的街巷、绝望的落日和荒郊的月光；
+  </br>我给你一个久望孤月的人的悲怆；
+  </br>我给你**我的书卷里**容纳的所有洞悉，
+  </br>以及滋养我人生的所有男子气概和幽默；
+  </br>我给你一个从未有过信仰的人的忠诚；
+  </br>我给你一个有关落日余晖下黄玫瑰的记忆，
+  </br>而那远在你出生的数年以前；
+  </br>我给你**我的孤寂**、**我的幽暗**、**我心底的饥馑**；
+  </br>我妄图用**将信将疑**、**危机四伏**、**穷途末路**来贿赂你。
 
 # Load fontawesome icons? Also see the links option
-icons: true
+icons: false
 
 # Footer area links
 # NOTICE) If you set "icons: false" link names will be clear text
 # If "icons: true" link names will interpreted as fontawesome icon names
 # NOTICE) Use the fontawesome icon names without the fa- prefix (http://fontawesome.io/cheatsheet/)
 links:
-  book: /archives/
-  globe: https://github.com/geekplux/hexo-theme-typing
-  twitter: https://twitter.com/
-  github-alt: https://github.com/
-  youtube-play: https://www.youtube.com/
-  stack-overflow: https://stackoverflow.com/
-  google-plus: https://plus.google.com/
-  rss: /atom.xml
+  #book: /archives/
+  #globe: https://github.com/geekplux/hexo-theme-typing
+  #twitter: https://twitter.com/
+  #github-alt: https://github.com/
+  #youtube-play: https://www.youtube.com/
+  #stack-overflow: https://stackoverflow.com/
+  #google-plus: https://plus.google.com/
+  #rss: /atom.xml
+  首页: /
+  归档: /archives/
+  关于: /about/
 
 
 # Info
-archive_footer_content: Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Fusce eget urna vitae velit *eleifend interdum at ac nisi. In nec ligula lacus. Cum sociis natoque* penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu cursus erat, ut dapibus quam. Archive
-post_footer_content: ipsum dolor sit amet, **consectetur adipiscing elit.** Fusce eget urna vitae velit *eleifend interdum at ac nisi. In nec ligula lacus. Cum sociis natoque* penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu cursus erat, ut dapibus quam. Post
+archive_footer_content: 如果有来生，愿做一棵树；站成永恒，没有悲欢的姿势；一半在土里安详，一半在风里飞扬；一半洒落阴凉，一半沐浴阳光；非常沉默，非常骄傲；从不依靠，从不寻找。Alfred Joyce Kilmer
+post_footer_content: 如果有来生，愿做一棵树；站成永恒，没有悲欢的姿势；一半在土里安详，一半在风里飞扬；一半洒落阴凉，一半沐浴阳光；非常沉默，非常骄傲；从不依靠，从不寻找。Alfred Joyce Kilmer
 
 # Gitment
 gitment:
@@ -63,7 +76,7 @@ gitment:
 
 # Donate
 donate:
-  github: https://github.com/geekplux
+  github: https://github.com/wessmrs
   paypal: https://www.paypal.me/geekplux
   bitcoin: 1AVngxh56oLvAzXsEFnzccUohZdHswjC7j
   BTCQR: http://7b1evr.com1.z0.glb.clouddn.com/donate/bitcoin.png
