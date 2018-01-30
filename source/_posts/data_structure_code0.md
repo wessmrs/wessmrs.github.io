@@ -86,12 +86,45 @@ DeleteSequenceListElement(SQList *list, int index, ElemType *e) {
 }
 
 * 查找元素
+	- 1. 从第1个位置开始向后遍历元素，当找到元素时则退出
+	- 2. 如果遍历过线性表长度或元素不存在，抛出异常
+LocateSequenceListElement(SQList *list, ElemType elem) {
+	int i = 0;
+	while (*(list->elem+i) != elem && i < list->len) {
+		i++;
+	}
+	if (i >= list->len) {
+		return -1;
+	}
+	return i+1;
+}
 
 * 表的长度
+ 	- 1. 线性表结构的当前数据长度
+ SequenceListLength(SQList *list) {
+ 	return list->len;
+ }
+
 
 * 表的判空
+	- 1. 线性表长度是否为0，则表示表空
+IsSequenceListEmpty(SQList *list) {
+	return (0 == list->len);
+}
 
 * 表的置空
+	- 1. 线性表长度置为0，则表示表空
+ClearSequenceList(SQList *list) {
+	list->len = 0;
+}
 
 * 表的销毁
+	- 1. 释放结构体所占内存空间
+	- 2. 置空结构体初始化变量
+DestroySequenceList(SQList *list) {
+	free(list->elem);
+	list->elem = NULL;
+	list->size = 0;
+	list->len = 0;
+}
 ```
