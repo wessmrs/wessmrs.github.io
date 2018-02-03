@@ -36,7 +36,9 @@ category_dir: categories
 ##code文件夹
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render: README.md
+skip_render: 
+  - _posts/*.html
+  - README.md
 
 # Directory
 
